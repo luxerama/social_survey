@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = SocialSurvey::VERSION
   spec.authors       = ["luxerama"]
   spec.email         = ["vincent@siebert.im"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.summary       = %q{Conduct social surveys}
+  spec.description   = %q{Use this gem if you want to conduct surveys with the help of hashtags}
+  spec.homepage      = "https://github.com/luxerama/social_survey"
+  spec.license       = "Apache License Version 2.0"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
